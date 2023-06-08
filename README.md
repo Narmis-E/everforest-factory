@@ -1,5 +1,5 @@
 # 🌲 Everforest Factory 🏭
-Forked from [onedark-factory](https://github.com/rototrash/tokyo-night-factory](https://github.com/AbdelrhmanNile/onedark-factory) 😄
+Forked from [onedark-factory](https://github.com/AbdelrhmanNile/onedark-factory) 😄
 
 A simple cli to convert any image to an everforest themed wallpaper
 
