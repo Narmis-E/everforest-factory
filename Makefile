@@ -1,16 +1,16 @@
 PREFIX = /usr
 
 all:
-	@echo Run \'make install\' to install odf.
+	@echo Run \'make install\' to install eff.
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
-	@cp -p odf.sh $(DESTDIR)$(PREFIX)/bin/odf
-	@chmod 755 $(DESTDIR)$(PREFIX)/bin/odf
-	@cp -p conv.py $(DESTDIR)$(PREFIX)/bin/odfpy
-	@chmod 755 $(DESTDIR)$(PREFIX)/bin/odfpy
+	@cp -p eff.sh $(DESTDIR)$(PREFIX)/bin/eff
+	@chmod 755 $(DESTDIR)$(PREFIX)/bin/eff
+	@cp -p conv.py $(DESTDIR)$(PREFIX)/bin/effpy
+	@chmod 755 $(DESTDIR)$(PREFIX)/bin/effpy
 
 
 uninstall:
-	@rm -rf $(DESTDIR)$(PREFIX)/bin/odf
-	@rm -rf $(DESTDIR)$(PREFIX)/bin/odfpy
+	@rm -rf $(DESTDIR)$(PREFIX)/bin/eff
+	@rm -rf $(DESTDIR)$(PREFIX)/bin/effpy
